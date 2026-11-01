@@ -1,0 +1,32 @@
+# C
+*.o
+*.out
+test_runner
+*.dSYM/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Java
+target/
+*.class
+*.jar
+!java_labs/lib/junit-platform-console-standalone.jar
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
